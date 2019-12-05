@@ -1,0 +1,16 @@
+package com.royben.photoapp.api.users.service;
+
+import java.util.UUID;
+
+import com.royben.photoapp.api.users.shared.UserDto;
+
+public class UserServiceImpl implements UsersService {
+
+	@Override
+	public UserDto createUser(UserDto userDetails) {
+		userDetails.setUserId(UUID.randomUUID().toString());
+		return null;
+	}
+
+
+}

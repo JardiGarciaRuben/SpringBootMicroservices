@@ -1,0 +1,10 @@
+package com.royben.photoapp.api.users.service;
+
+public class UserServiceImpl implements UsersService {
+
+	@Override
+	public UserDto createUser(UserDto userDetails) {
+		return null;
+	}
+
+}

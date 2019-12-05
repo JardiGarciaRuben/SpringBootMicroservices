@@ -1,0 +1,16 @@
+package com.royben.photoapp.api.users.service;
+
+import com.royben.photoapp.api.users.shared.UserDto;
+
+public class UserServiceImpl implements UsersService {
+
+	@Override
+	public com.royben.photoapp.api.users.service.UserDto createUser(
+			com.royben.photoapp.api.users.service.UserDto userDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+}
